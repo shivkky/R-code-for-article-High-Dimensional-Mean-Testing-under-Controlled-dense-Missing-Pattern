@@ -9,7 +9,7 @@ This repository contains the R code accompanying the article **“High-Dimension
 | [`lighttail_revised.R`](lighttail_revised.R) | Simulates a light-tailed Gaussian linear process, applies a dense MCAR missingness pattern, and compares the empirical rejection probabilities of the proposed and Yin tests. |
 | [`linear-example2-simulation-revised.R`](linear-example2-simulation-revised.R) | Runs the heavy-tailed linear-process simulation from Example 2. Innovations follow a Gaussian–symmetric-Pareto mixture, and missingness varies across coordinates. |
 | [`garch-simulation-simple.R`](garch-simulation-simple.R) | Runs a GARCH-type heavy-tailed simulation and compares the proposed test with Yin's test under coordinate-dependent missingness. |
-| [`R code to compare power between our and Yin model-2-2.R`](R%20code%20to%20compare%20power%20between%20our%20and%20Yin%20model-2-2.R) | Applies both tests to the EEG example for a selected signal strength and reports their rejection indicators. |
+| [`R code to compare power between our and Yin model-2.R`](R%20code%20to%20compare%20power%20between%20our%20and%20Yin%20model-2-2.R) | Applies both tests to the EEG example for a selected signal strength and reports their rejection indicators. |
 | [`R code to check columns are not identical.R`](R%20code%20to%20check%20columns%20are%20not%20identical.R) | Performs pairwise two-sample Kolmogorov–Smirnov tests on selected blocks of the EEG data and applies the Benjamini–Hochberg adjustment. |
 
 ## Statistical setting
